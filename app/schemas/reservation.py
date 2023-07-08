@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 
+from typing import Optional
 from pydantic import BaseModel, Extra, root_validator, validator, Field
 
 FROM_TIME = (
@@ -52,6 +53,7 @@ class ReservationUpdate(ReservationBase):
 class ReservationDB(ReservationBase):
     id: int
     meetingroom_id: int
+    user_id: Optional[int]
 
     class Config:
         orm_mode = True
