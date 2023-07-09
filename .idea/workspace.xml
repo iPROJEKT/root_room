@@ -7,17 +7,12 @@
     <list default="true" id="c6061878-5f8c-44fc-b630-506430736282" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/alembic/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/endpoints/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/endpoints/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/endpoints/meeting_room.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/endpoints/meeting_room.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api/endpoints/reservation.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/endpoints/reservation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/endpoints/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/endpoints/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/routers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/endpoints/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/endpoints/validators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/crud/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/reservation.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/reservation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/reservation.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/reservation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fastapi.db" beforeDir="false" afterPath="$PROJECT_DIR$/fastapi.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/crud/reservation.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud/reservation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,10 +96,6 @@
           <url>file://$PROJECT_DIR$/alembic/versions/85c5ec4bb703_sec_migr.py</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/schemas/reservation.py</url>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
